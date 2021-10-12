@@ -3,7 +3,6 @@ from sklearn.neighbors import KNeighborsClassifier
 import streamlit as st
 import pandas as pd
 import numpy as np
-#import pickle
 st.title('IRIS CLASSIFIER USING KNN')
 st.write('Streamlit app for KNN iris dataset')
 var=load_iris()
