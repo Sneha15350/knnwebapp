@@ -13,7 +13,7 @@ x=var.data #input
 y=var.target #output
 xmin=np.min(x,axis=0)
 xmax=np.max(x,axis=0)
-model=KNeighborsClassifier(n_neighbors=11,metric='euclidean')
+model=KNeighborsClassifier(n_neighbors=13,metric='euclidean')
 model.fit(x,y)
 sepal_length=st.slider('Sepal length: ',float(xmin[0]),float(xmax[0]))
 sepal_width=st.slider('Sepal width: ', float(xmin[1]),float(xmax[1]))
