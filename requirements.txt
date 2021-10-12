@@ -1,0 +1,5 @@
+from sklearn.datasets import load_iris
+from sklearn.neighbors import KNeighborsClassifier
+import streamlit as st
+import pandas as pd
+import numpy as np
