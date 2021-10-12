@@ -1,4 +1,4 @@
-from sklearn.datasets import load_iris #loads the dataset
+from sklearn import load_iris #loads the dataset
 from sklearn.neighbors import KNeighborsClassifier
 import streamlit as st
 import pandas as pd
