@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 #import pickle
 st.title('IRIS CLASSIFIER USING KNN')
-st.write('Streamlit app for KNN iris dataset')
+'''st.write('Streamlit app for KNN iris dataset')
 var=load_iris()
 '''with open('data.pkl', 'rb') as file:
     var = pickle.load(file)'''
@@ -21,4 +21,4 @@ petal_length=st.slider('Petal length: ',float(xmin[2]),float(xmax[2]))
 petal_width=st.slider('Petal width: ', float(xmin[3]),float(xmax[3]))
 y_pred=model.predict([[sepal_length,sepal_width,petal_length,petal_width]])
 op=['Setosa','Versicolor','Verginica']
-st.title(op[y_pred[0]])
+st.title(op[y_pred[0]])'''
