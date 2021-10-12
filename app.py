@@ -7,8 +7,6 @@ import numpy as np
 st.title('IRIS CLASSIFIER USING KNN')
 st.write('Streamlit app for KNN iris dataset')
 var=load_iris()
-'''with open('data.pkl', 'rb') as file:
-    var = pickle.load(file)'''
 x=var.data #input
 y=var.target #output
 xmin=np.min(x,axis=0)
